@@ -1,0 +1,66 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* was 90vh */
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0d6efd; /* Bootstrap primary */
+  }
+  
+  .home-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d; /* Bootstrap secondary */
+    margin-bottom: 30px;
+  }
+
+  
+  .home-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #198754; /* Bootstrap success */
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .home-footer {
+    margin-top: auto;
+    background-color: #343a40; /* dark gray */
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    border-top: 2px solid #555;
+    width: 100%; /* ensure full width */
+  }
+  .home-footer a {
+    color: #f8d775;
+    text-decoration: none;
+  }
+  
+  .home-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .home-button:hover {
+    background-color: #157347;
+  }
+  
