@@ -89,14 +89,14 @@ Backend API: [http://localhost:5000](http://localhost:5000)
 
 ---
 
- 📸 Features
+  Features
 
-* 🔐 User Signup/Login
-* 📍 Location-based pricing in Fresh Deals
-* 🛒 Add to Cart
-* ✅ Local Storage support
-* 🧭 Navigation with React Router
+*  User Signup/Login
+*  Location-based pricing in Fresh Deals
+*  Add to Cart
+*  Local Storage support
+*  Navigation with React Router
 
 ---
 
-Let me know if you'd like a badge-style README with visuals or feature icons!
+
